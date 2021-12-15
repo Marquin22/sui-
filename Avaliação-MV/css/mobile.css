@@ -1,0 +1,81 @@
+
+    .register-form {
+      max-width: 100%;
+    }
+    form .user-details .input-box {
+      margin-bottom: 15px;
+      width: 100%;
+
+    }
+
+    
+/* Menu */
+
+#navbar {
+    height: 180px;
+}
+
+#navbar-container {
+    flex-direction: column;
+    padding: 20px auto;
+}
+
+#navbar-items {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+/* Inicio */
+#inicio-container {
+    padding: 40px;
+}
+
+/* social-media */
+#social-media-container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* Sobre */
+#sobre-container {
+    grid-template-columns: 1fr;
+}
+
+#sobre-container .feature:nth-last-child(2) {
+    margin: 15px auto;
+}
+
+/* Ensaios */
+
+#ensaios-container {
+    flex-direction: column;
+}
+
+#items {
+    width: 90%;
+}
+
+.item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Depoimentos */
+.depoimento {
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Galeria */
+
+#galeria-container {
+    grid-template-columns: 1fr;
+}
+
+.galeria-image {
+    width: 100%;
+}
+
